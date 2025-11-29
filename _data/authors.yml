@@ -1,0 +1,10 @@
+hamcb:
+  name        : "Haekwon Adrian Matias Chung Baek"
+  bio         : "Visiting Postdoctoral Researcher at Georgia Institute of Technology."
+  location    : "Atlanta, GA"
+  email       : "haekb@email.com"
+  github      : "hamcb"
+  linkedin    : "haekc"   # 있으면
+  
+  scholar     : # "your-scholar-id" 있으면
+  avatar      : # "/assets/images/profile.jpg"
