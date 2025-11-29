@@ -120,16 +120,16 @@ author:
   links:
     - label: "Personal Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:hkmaster1003@gmail.com"
+      url: "mailto:hkmaster1003@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "www.linkedin.com/in/haekc"
     - label: "Google Scholar"
       icon: "ai ai-google-scholar-square"
-      # url: "https://scholar.google.com/citations?user=BC4eC48AAAAJ&hl=en"
+      url: "https://scholar.google.com/citations?user=BC4eC48AAAAJ&hl=en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/hamcb"
+      url: "https://github.com/hamcb"
 
 
 # Site Footer
