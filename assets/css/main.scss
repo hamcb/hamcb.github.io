@@ -8,23 +8,26 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* Hero 영역 제목/설명 가운데 정렬 */
-.page__hero--overlay .page__title,
-.page__hero--overlay .page__lead,
-.page__hero--overlay .page__meta {
-  text-align: center;
+/* 홈 소개 블록 스타일 (YO 홈페이지 느낌) */
+.home-intro {
+  max-width: 900px;      /* 가운데 좁은 컬럼 */
+  margin: 2rem auto 4rem; /* 위·아래 여백 + 가운데 정렬 */
 }
 
-/* (옵션) 전체 블록도 가운데 정렬하고 싶으면 */
-.page__hero--overlay .wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;   // 가로 중앙
-  justify-content: center; // 세로 중앙
+/* 제목 스타일 */
+.home-intro h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
 }
 
+/* 본문 스타일 */
+.home-intro p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* 혹시 남아 있는 중앙 정렬을 확실히 꺼 주기 위해 */
 .page__content {
-  text-align: center !important;
-  max-width: 900px;
-  margin: 0 auto;
+  text-align: left !important;
 }
