@@ -2,7 +2,7 @@
 layout: single
 title: "Towards Advanced Additive Manufacturing"
 author_profile: false
-classes: home-compact
+classes: wide
 header:
   overlay_image: /assets/images/testimage.jpg
 ---
