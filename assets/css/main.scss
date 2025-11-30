@@ -7,3 +7,18 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Hero 영역 제목/설명 가운데 정렬 */
+.page__hero--overlay .page__title,
+.page__hero--overlay .page__lead,
+.page__hero--overlay .page__meta {
+  text-align: center;
+}
+
+/* (옵션) 전체 블록도 가운데 정렬하고 싶으면 */
+.page__hero--overlay .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   // 가로 중앙
+  justify-content: center; // 세로 중앙
+}
