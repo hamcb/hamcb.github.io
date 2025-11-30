@@ -116,8 +116,11 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Visiting postdoctoral research in ISyE Georgia Institute of Technology"
   location         : "Atlanta, GA"
-  email            : "hbaek33@gatech.edu"
+  email            : 
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:hbaek33@gatech.edu"
     - label: "Personal Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:hkmaster1003@gmail.com"
@@ -125,7 +128,7 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "www.linkedin.com/in/haekc"
     - label: "Google Scholar"
-      icon: "ai ai-google-scholar-square"
+      icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=BC4eC48AAAAJ&hl=en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
