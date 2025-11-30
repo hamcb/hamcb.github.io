@@ -23,9 +23,6 @@ search: false
   justify-content: center; // 세로 중앙
 }
 
-/* Home intro text center alignment */
-.home .page__content {
-  text-align: center;        /* 텍스트 가운데 정렬 */
-  max-width: 900px;          /* 가운데 정렬 시 너무 넓지 않게 */
-  margin: 0 auto;            /* 가로 가운데 배치 */
+.page__content {
+  text-align: center;
 }
