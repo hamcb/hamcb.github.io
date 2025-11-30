@@ -1,8 +1,33 @@
-/* Footer 글씨 크기 조정 */
-.page__footer {
-  font-size: 0.8rem !important;
+/* 헤더 아래 소개 글 영역: 폭 좁게 + 글씨 작게 */
+.home-compact .home-intro {
+  max-width: 800px;           /* 글 줄 폭 */
+  margin: 2rem auto 2rem;     /* 위/아래 여백 줄이기 */
+  font-size: 0.9rem;          /* 본문 글씨 살짝 작게 */
 }
 
-.page__footer a {
-  font-size: 0.8rem !important;
+/* "Hi, I'm ..." 제목 크기 조금만 줄이기 */
+.home-compact .home-intro h2,
+.home-compact .home-intro h3 {
+  font-size: 1.3rem;
+}
+
+/* 헤더(큰 이미지) 높이 줄이기 */
+.home-compact .page__hero--overlay {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* 본문과 푸터 사이 여백 줄이기 */
+.home-compact .page__content {
+  padding-bottom: 1.5rem;
+}
+
+/* 푸터를 화면 안으로 더 끌어올리기 + 글씨 작게 */
+.home-compact .page__footer {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.home-compact .page__footer a {
+  font-size: 0.8rem;
 }
