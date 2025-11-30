@@ -1,28 +1,29 @@
-/* 헤더 아래 소개 글 영역: 폭 좁게 + 글씨 작게 */
-.home-compact .home-intro {
-  max-width: 800px;           /* 글 줄 폭 */
-  margin: 2rem auto 2rem;     /* 위/아래 여백 줄이기 */
-  font-size: 0.9rem;          /* 본문 글씨 살짝 작게 */
+/* ---------- HAMCB home page compact layout ---------- */
+
+/* 1) 헤더 안 제목 중앙 정렬 */
+.home-compact .page__hero--overlay .page__title {
+  text-align: center;
 }
 
-/* "Hi, I'm ..." 제목 크기 조금만 줄이기 */
-.home-compact .home-intro h2,
-.home-compact .home-intro h3 {
-  font-size: 1.3rem;
-}
-
-/* 헤더(큰 이미지) 높이 줄이기 */
+/* 2) 헤더 높이 줄이기 (footer가 더 위로 오도록) */
 .home-compact .page__hero--overlay {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-/* 본문과 푸터 사이 여백 줄이기 */
+/* 3) 본문(Hi 단락) 영역: 폭을 더 넓게 + 너무 좁지 않게 */
+.home-compact .home-intro {
+  max-width: 1100px;        /* 800 → 1100으로 넓게 */
+  margin: 1.5rem auto 1.5rem;   /* 위·아래 여백 적당히 */
+  font-size: 0.95rem;       /* 기본보다 살짝 작게 */
+}
+
+/* 4) 본문과 footer 사이 여백 줄이기 (스크롤 줄이기용) */
 .home-compact .page__content {
-  padding-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
 }
 
-/* 푸터를 화면 안으로 더 끌어올리기 + 글씨 작게 */
+/* 5) footer 위 여백 + 글씨 크기 */
 .home-compact .page__footer {
   margin-top: 0.5rem;
   font-size: 0.8rem;
