@@ -4,11 +4,10 @@ title: "Towards Advanced Additive Manufacturing"
 author_profile: false
 header:
   overlay_image: /assets/images/testimage.jpg
-  overlay_filter: 0.3
 ---
 
 
-<div class="home-intro">
+<div style="max-width: 800px; margin: 3rem auto 4rem;">
 ## Hi, I'm Haekwon Adrian Matias Chung Baek.
 
 Visiting postdoctoral research in ISyE at Georgia Institute of Technology.
