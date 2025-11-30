@@ -7,8 +7,3 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-
-/* 홈 제목 가운데 정렬 */
-.layout--home .page__title {
-  text-align: center;
-}
