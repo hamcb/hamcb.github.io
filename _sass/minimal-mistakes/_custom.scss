@@ -1,34 +1,35 @@
-/* ---------- HAMCB home page compact layout ---------- */
-
-/* 1) 헤더 안 제목 중앙 정렬 */
-.home-compact .page__hero--overlay .page__title {
-  text-align: center;
+<style>
+/* 1. 제목 중앙 정렬 */
+.page__title {
+  text-align: center !important;
+  display: block;
+  width: 100%;
 }
 
-/* 2) 헤더 높이 줄이기 (footer가 더 위로 오도록) */
-.home-compact .page__hero--overlay {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+/* 2. 본문 폭 넓히기 (양옆 여백 줄이기) */
+/* Minimal Mistakes 테마의 기본 폭 제한을 90%까지 늘립니다 */
+.page__inner-wrap {
+  max-width: 90% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
-/* 3) 본문(Hi 단락) 영역: 폭을 더 넓게 + 너무 좁지 않게 */
-.home-compact .home-intro {
-  max-width: 1100px;        /* 800 → 1100으로 넓게 */
-  margin: 1.5rem auto 1.5rem;   /* 위·아래 여백 적당히 */
-  font-size: 0.95rem;       /* 기본보다 살짝 작게 */
+/* author_profile이 꺼져 있을 때, 페이지 전체 너비를 넓게 잡음 */
+.page {
+  width: 95% !important;
+  padding-right: 0 !important;
 }
 
-/* 4) 본문과 footer 사이 여백 줄이기 (스크롤 줄이기용) */
-.home-compact .page__content {
-  padding-bottom: 0.5rem;
+/* 3. 전체적으로 축소된 느낌 (Zoom Out 효과) */
+/* 폰트 크기를 줄이면 화면이 넓어 보입니다. (13px ~ 15px 조절 가능) */
+html {
+  font-size: 14px !important;
 }
 
-/* 5) footer 위 여백 + 글씨 크기 */
-.home-compact .page__footer {
-  margin-top: 0.5rem;
-  font-size: 0.8rem;
+/* 모바일 화면에서도 여백 최적화 */
+@media (max-width: 768px) {
+  .page__inner-wrap {
+    width: 95% !important;
+  }
 }
-
-.home-compact .page__footer a {
-  font-size: 0.8rem;
-}
+</style>
