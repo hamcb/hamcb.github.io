@@ -7,37 +7,3 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-
-.home-intro {
-  max-width: 800px;
-  margin-top: 2.5rem;
-  margin-bottom: 3rem;
-}
-
-/* 데스크탑에서만 YO처럼 약간 왼쪽으로 치우치게 */
-@media (min-width: 992px) {
-  .home-intro {
-    margin-left: 12%;
-    margin-right: 20%;
-  }
-}
-
-.home-intro h3 {
-  font-size: 1.6rem;      /* 제목 크기 ↓ */
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-
-.home-intro p {
-  font-size: 0.98rem;     /* 본문 크기 ↓ */
-  line-height: 1.6;
-}
-
-.page__hero--overlay {
-  padding: 3rem 0;     /* 위아래 여백 줄이기 */
-  min-height: 260px;   /* 영웅 이미지가 너무 커지지 않게 */
-}
-
-.page__hero--overlay .page__title {
-  font-size: 2.6rem;   /* 제목 살짝만 크게, 너무 크지 않게 */
-}
